@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
+</head>
+<body>
+    <header>
+        <h1 class="bolder">HTML5 - 2017.07.18</h1>
+    </header>
+    <div id="atag">
+        <h2>앵커 태그</h2>
+        <a href="http://www.google.com">URL</a><br>
+        <a href="../html.html">HTML</a><br>
+        <a href="file/my.pdf" download>Download file</a><br>
+        <a href="#">fragment identifier</a><br>
+        <a href="mailto:someone@example.com?Subject=Hello again">Send Mail</a><br>
+        <a href="javascript:alert('Hello');">Javascript</a>
+    </div>
+
+    <div id="top" class="background-gray">
+        <h2>Top of page!</h2>
+
+        <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+        <p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
+        <p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
+        <p>And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don't care what it's founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction-Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the "creative temperament"-it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No-Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.</p>
+
+        <a href="#top">Go to top</a>
+    </div>
+
+    <div id="table">
+        <h2>테이블</h2>
+        <table border="1">
+        <tr>
+            <th colspan="2">Subject</th>
+            <th>John Doe</th>
+            <th>Jane Roe</th>
+        </tr>
+        <tr>
+            <td rowspan="2" class="center">Biology</td>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A+</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="center">Chemistry</td>
+            <td>Practical</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A</td>
+            <td>C+</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="center">Physics</td>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Theory</td>
+            <td>A-</td>
+            <td>A-</td>
+        </tr>
+        </table>
+    </div>
+
+
+    <div id="formtag" class="background-gray">
+        <h2>form 태그</h2>
+        <form action="http://jsonplaceholder.typicode.com/users" method="get">
+        ID: <input type="text" name="id" placeholder="아이디"><br>
+        username: <input type="text" name="username" placeholder="이름"><br>
+        <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <div id="inputtag">
+        <h2>input 태그</h2>
+
+        <h3>button</h3>
+            <input type="button" value="Click me" onclick="alert('Hello world!')">
+            <hr>
+
+            <h3>checkbox</h3>
+            <input type="checkbox" name="fruit2" value="grape"> 포도<br>
+            <input type="checkbox" name="fruit2" value="grape"> 포도<br>
+            <input type="checkbox" name="fruit2" value="grape"> 포도<br>
+            <input type="checkbox" name="fruit2" value="grape"> 포도<br>
+            <input type="checkbox" name="fruit3" value="peach"> 복숭아<br>
+            <input type="checkbox" name="fruit3" value="peach"> 복숭아<br>
+            <input type="checkbox" name="fruit3" value="peach"> 복숭아<br>
+            <input type="checkbox" name="fruit3" value="peach"> 복숭아<br>
+            <input type="checkbox" name="fruit3" value="peach"> 복숭아<br>
+            <input type="checkbox" name="fruit1" value="apple" checked> 사과<br>
+            <input type="checkbox" name="fruit1" value="apple" checked> 사과<br>
+            <input type="checkbox" name="fruit1" value="apple" checked> 사과<br>
+            <input type="checkbox" name="fruit1" value="apple" checked> 사과<br>
+            <input type="checkbox" name="fruit1" value="apple" checked> 사과<br>
+            <hr>
+
+            <h3>color</h3>
+            <input type="color" name="mycolor">
+            <hr>
+
+            <h3>date</h3>
+            <input type="date" name="birthday">
+            <hr>
+
+            <h3>datetime</h3>
+            <input type="datetime" name="birthdaytime">
+            <hr>
+
+            <h3>datetime-local</h3>
+            <input type="datetime-local" name="birthdaytime">
+            <hr>
+
+            <h3>email</h3>
+            <input type="email" name="useremail">
+            <hr>
+
+            <h3>file</h3>
+            <input type="file" name="myfile">
+            <hr>
+
+            <h3>hidden</h3>
+            <input type="hidden" name="country" value="Norway">
+            hidden filed는 사용자에 표시되지 않는다.
+            <hr>
+
+            <h3>image</h3>
+            <input type="image" src="img/img_submit.gif" alt="Submit" width="48" height="48">
+            <hr>
+
+            <h3>month</h3>
+            <input type="month" name="birthdaymonth">
+            <hr>
+
+            <h3>number</h3>
+            <input type="number" name="quantity" min="2" max="10" step="2" value="2">
+            <hr>
+
+            <h3>password</h3>
+            <input type="password" name="pwd">
+            <hr>
+
+            <h3>radio</h3>
+            <input type="radio" name="gender" value="male" checked> 남자<br>
+            <input type="radio" name="gender" value="female"> 여자<br>
+            <hr>
+
+            <h3>range</h3>
+            <input type="range" name="points" min="0" max="10" step="1" value="5">
+            <hr>
+
+            <h3>reset</h3>
+            <input type="reset">
+            <hr>
+
+            <h3>search</h3>
+            <input type="search" name="googlesearch">
+            <hr>
+
+            <h3>submit</h3>
+            <input type="submit" value="Submit">
+            <hr>
+
+            <h3>tel</h3>
+            <input type="tel" name="mytel">
+            <hr>
+
+            <h3>text</h3>
+            <input type="text" name="myname">
+            <hr>
+
+            <h3>time</h3>
+            <input type="time" name="mytime">
+            <hr>
+
+            <h3>url</h3>
+            <input type="url" name="myurl">
+            <hr>
+
+            <h3>week</h3>
+            <input type="week" name="week_year">      
+    </div>
+
+    <div class="background-gray">
+        <h2>브라우저 작동 방식</h2>
+        <p>브라우저는 렌더링 엔진을 가지고 있다.</p>
+        <p>렌더링 엔진은 위에서부터 한줄씩 순차적으로 HTML파일을 서버에서 로딩한다.</p>
+        <p>렌더링 엔진은 HTML과 CSS만 관리하며 JS는 자바스크립트 엔진이 관리한다.</p>
+        <p>렌더링 엔진의 파일 로딩(코드를 한 줄 한 줄 읽는 것)이 끝나면 파싱(코드 해석)을 한다.</p>
+        <p>렌더링 엔진에는 로딩과 파싱을 수행하는 로더와 파서가 있다.</p>
+        <p>HTML을 파싱한 결과물이 DOM이며 컴퓨터의 메모리에 올라가 있다.</p>
+        <p>CSS를 파싱한 결과물이 CSSOM이다.</p>
+    </div>
+</body>
+</html>
